@@ -1,0 +1,27 @@
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+tbody td:nth-child(1) {
+    background-color: lightgreen;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+#bgreen{
+    background-color: lightgreen;
+
+}
+
+caption{
+    font-weight: bold;
+}
+thead,tfoot{
+    background-color: #006400;
+    color: whitesmoke;
+}
